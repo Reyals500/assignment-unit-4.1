@@ -108,8 +108,17 @@ console.log(sumAll([25, 15, 30, 5, 10]));
 // 10. Function to return a new array of all positive (greater than zero)
 //     numbers contained in an input array. If there are no positive numbers
 //     return an empty array. Note: The input array should not change.
+const inputArray = [5, -4, 23, -81, 0];
+let positives = [];
 function allPositive() {
-
+for (let index = 0; index < inputArray.length; index++) {
+  const element = inputArray[index];
+  if (element > 0) {
+    positives.push(element);
+  }
+}
+  console.log(positives);
+  return [];
 }
 
 
