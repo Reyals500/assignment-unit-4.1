@@ -118,14 +118,21 @@ for (let index = 0; index < inputArray.length; index++) {
   }
 }
   console.log(positives);
-  return [];
-}
-
+  return positives;
+};
 
 // 11. Pick a problem from Edabit(https://edabit.com/) or 
 //     CodeWars(https://www.codewars.com/). Then describe it 
 //     here in a comment, write the function, and test it!
 
+//The problem is in codewars.com where we are trying to remove vowels from comments in a string and then return the phrase without vowels
+const str = 'This website is for losers LOL!'
+const noVowels = str.replace(/[aeiou]/gi,'')
+function disemvowel(str) {
+  return str;
+}
+  console.log(noVowels);
+//Expected result 'Ths wbst s fr lsr LL!'
 
 // DO NOT MODIFY
 // Used for automated testing
